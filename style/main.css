@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    position: relative;
 }
 
 .picture {
@@ -11,6 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .picture a{
     display: flex;
@@ -22,6 +24,7 @@ body {
     font-weight: bold;
     color: white;
 }
+
 
 .content {
     height: 1000px;
